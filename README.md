@@ -82,23 +82,13 @@ It is organized as follows:
 
 ├── features/ # Feature data extracted by getfeatures.m
 
+├── getaod.m # Extracts the **Angle of Departure (AoD)** data from raw simulation results.
+
+├── getfeatures.m # Extracts the **signal features** (e.g., RSRP, RSSI, path delay) from simulation files.
+
+├── aodprocess.m # Utility function used by `getaod.m` for processing AoD-related parameters.
+
+├── rsprocess.m # Utility function used by `getfeatures.m` for RSS/RSRP data transformation. 
+
 ├── fulldata.m # Assembles the full dataset for machine learning
-
-
-#### Data Generation Notes:
-- The **`sim1`** folder includes one set of simulated receiver outputs.  
-- To build a **time-series dataset**, run multiple simulations (e.g., `sim1`, `sim2`, `sim3`) under slightly different parameters or random seeds, then store them in the `data/` directory.  
-- Each file should be named in order (e.g., `sim_1`, `sim_2`, `sim_3`) for easy aggregation.
-
----
-
-### MATLAB Scripts
-
-| File | Description |
-|------|--------------|
-| `getaod.m` | Extracts the **Angle of Departure (AoD)** data from raw simulation results. |
-| `getfeatures.m` | Extracts the **signal features** (e.g., RSRP, RSSI, path delay) from simulation files. |
-| `aodprocess.m` | Utility function used by `getaod.m` for processing AoD-related parameters. |
-| `rsprocess.m` | Utility function used by `getfeatures.m` for RSS/RSRP data transformation. |
-| `fulldata.m` | Combines all extracted results (features and AoD) into a unified dataset ready for machine learning training. |
 
