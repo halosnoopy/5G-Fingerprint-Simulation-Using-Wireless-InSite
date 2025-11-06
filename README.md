@@ -75,10 +75,15 @@ The `data/` folder contains datasets generated from the Wireless InSite simulati
 It is organized as follows:
 
 ├── sim1/ # Raw data directly exported from the simulation
+
 ├── sim2/, sim3/, ... # Additional runs (for building time-series fingerprints)
+
 ├── AoD/ # Files extracted by getaod.m
+
 ├── features/ # Feature data extracted by getfeatures.m
+
 ├── fulldata.m # Assembles the full dataset for machine learning
+
 
 #### Data Generation Notes:
 - The **`sim1`** folder includes one set of simulated receiver outputs.  
