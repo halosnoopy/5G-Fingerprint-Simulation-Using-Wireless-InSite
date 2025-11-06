@@ -1,0 +1,522 @@
+
+
+wibatch version 3.4.4.11 - r77081
+  Built with Microsoft Visual Studio 1900
+  Built with Qt 4.8.7
+  Using Qt 4.8.7
+
+2024.07.02 11:35:25.330 Hostname: Huang (pid: 15124)
+2024.07.02 11:35:25.330 Set working directory: C:/Users/qq286/OneDrive - University of Regina/Desktop/sim_test
+2024.07.02 11:35:25.376 ?? 7? 2 11:35:25 2024
+
+2024.07.02 11:35:25.383 OptiX Runtime version = 40100
+2024.07.02 11:35:25.383 CUDA Runtime version = 9.2
+2024.07.02 11:35:25.383 CUDA Driver version  = 12.2
+2024.07.02 11:35:25.383 GPU device #0: [NVIDIA RTX A2000 12GB], 8.6 capability, 26 total cores, 1024 threads per block
+
+2024.07.02 11:35:25.433 Initializing X3D model
+
+2024.07.02 11:35:25.440 ============ ATMOSPHERE ============
+
+2024.07.02 11:35:25.440 Pressure = 1013.25
+2024.07.02 11:35:25.440 Temperature = 22.2
+2024.07.02 11:35:25.440 Humidity = 50
+
+2024.07.02 11:35:25.440 Monte Carlo Parameters have been detected.
+2024.07.02 11:35:25.440 Number of runs: 1
+2024.07.02 11:35:25.440 Seed: 436889312
+2024.07.02 11:35:25.440 Freq sweep only: 0
+2024.07.02 11:35:25.440 Added 0 route and 0 snapshot platforms.
+2024.07.02 11:35:25.440 ============ GEOMETRY ============
+
+2024.07.02 11:35:25.440 Processing geometry (2 CPU threads)
+2024.07.02 11:35:25.441 Loaded geometry: ./project3.X3DGeometryAllEdges.cache
+2024.07.02 11:35:25.442   Lowering structures to terrain
+2024.07.02 11:35:25.442     Done lowering structures to terrain
+
+2024.07.02 11:35:25.446  ============ TRANSMITTER/RECEIVER SETS ============
+
+2024.07.02 11:35:25.446 Generating transmitter and receiver sets
+2024.07.02 11:35:25.457 TxRx set: Antenna 1  Set number: 4  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.07.02 11:35:25.457   Transmitter:
+2024.07.02 11:35:25.457     Input power (dBm): 30
+2024.07.02 11:35:25.457     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2395  Phase (degrees): 0
+2024.07.02 11:35:25.457     Antenna: MIMO
+2024.07.02 11:35:25.457       MIMOSubAntenna: HalfWaveDipole  Index: 0
+2024.07.02 11:35:25.457         Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2395  Phase (degrees): 0
+2024.07.02 11:35:25.457         Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2024.07.02 11:35:25.457       Array index: 1  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 2  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 3  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 4  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 5  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 6  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 7  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 8  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 9  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 10  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 11  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 12  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 13  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 14  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 15  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 16  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 17  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 18  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 19  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 20  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 21  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 22  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 23  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 24  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 25  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 26  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 27  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.457       Array index: 28  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.458       Array index: 29  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.458       Array index: 30  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.458       Array index: 31  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.458       Array index: 32  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+
+2024.07.02 11:35:25.472 TxRx set: Antenna 2  Set number: 5  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.07.02 11:35:25.472   Transmitter:
+2024.07.02 11:35:25.472     Input power (dBm): 30
+2024.07.02 11:35:25.472     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2395  Phase (degrees): 0
+2024.07.02 11:35:25.472     Antenna: MIMO
+2024.07.02 11:35:25.472       MIMOSubAntenna: HalfWaveDipole  Index: 0
+2024.07.02 11:35:25.472         Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2395  Phase (degrees): 0
+2024.07.02 11:35:25.472         Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2024.07.02 11:35:25.472       Array index: 1  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 2  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 3  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 4  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 5  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 6  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 7  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 8  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 9  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 10  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 11  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 12  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 13  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 14  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 15  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 16  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 17  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 18  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 19  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 20  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 21  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 22  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 23  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 24  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 25  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 26  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 27  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 28  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 29  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 30  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 31  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.473       Array index: 32  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+
+2024.07.02 11:35:25.485 TxRx set: Antenna 3  Set number: 6  Type: PointSet  Number of points: 1  APG Accelerated: no  Fit to terrain: yes
+2024.07.02 11:35:25.485   Transmitter:
+2024.07.02 11:35:25.485     Input power (dBm): 30
+2024.07.02 11:35:25.485     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2395  Phase (degrees): 0
+2024.07.02 11:35:25.485     Antenna: MIMO
+2024.07.02 11:35:25.485       MIMOSubAntenna: HalfWaveDipole  Index: 0
+2024.07.02 11:35:25.485         Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2395  Phase (degrees): 0
+2024.07.02 11:35:25.485         Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -250  Temperature (K): 293  VSWR: 1
+
+2024.07.02 11:35:25.485       Array index: 1  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 2  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 3  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 4  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 5  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 6  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 7  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 8  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 9  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 10  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 11  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 12  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 13  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 14  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 15  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 16  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): 0 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 17  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 18  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 19  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 20  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 21  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 22  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 23  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 24  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: -0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 25  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 26  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 27  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 28  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.0749481  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 29  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 30  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: -0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 31  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.0749481  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+2024.07.02 11:35:25.485       Array index: 32  Antenna index: 0  Offset (X) [m]: 0  Offset (Y) [m]: 0.224844  Offset (Z) [m]: 0.224844  Bearing (degrees): 0 Pitch (degrees): -90 Roll (degrees): 0 
+
+2024.07.02 11:35:25.485 TxRx set: 3rd  floor with 3  Set number: 15  Type: PointSet  Number of points: 32  APG Accelerated: no  Fit to terrain: yes
+2024.07.02 11:35:25.485   Receiver:
+2024.07.02 11:35:25.485     Collection radius (m): auto
+2024.07.02 11:35:25.485     Waveform: Sinusoid  Amplitude: 1  Carrier frequency (MHz): 2395  Phase (degrees): 0
+2024.07.02 11:35:25.485     Antenna: HalfWaveDipole  Cable loss (dB): 0  Polarization: Vertical  Power threshold (dBm): -150  Temperature (K): 293  VSWR: 1
+
+2024.07.02 11:35:25.485   Auto Collection Radius = 1.61438m
+2024.07.02 11:35:25.485 ============ MATERIALS ============
+
+2024.07.02 11:35:25.490 Material number: 0  Type: DielectricHalfspace  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 25  Conductivity (S/m): 0.02  Thickness (m): 0  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 1  Type: DielectricHalfspace  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 21.1367  Conductivity (S/m): 0.4681  Thickness (m): 0  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 5.31  Conductivity (S/m): 0.06622  Thickness (m): 0.3  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 1  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 5.31  Conductivity (S/m): 0.06622  Thickness (m): 0.3  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 5.31  Conductivity (S/m): 0.06622  Thickness (m): 0.3  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 1  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 1.99  Conductivity (S/m): 0.01201  Thickness (m): 0.03  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 2  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 3  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 1.5  Conductivity (S/m): 0.001385  Thickness (m): 0.0095  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 4  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 5  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 5.31  Conductivity (S/m): 0.06622  Thickness (m): 0.3  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 1  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 1.99  Conductivity (S/m): 0.01201  Thickness (m): 0.03  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 2  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 3  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 1.5  Conductivity (S/m): 0.001385  Thickness (m): 0.0095  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 4  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 5  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 0  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 5.31  Conductivity (S/m): 0.06622  Thickness (m): 0.3  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 1  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 1.99  Conductivity (S/m): 0.01201  Thickness (m): 0.03  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 2  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 3  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 1.5  Conductivity (S/m): 0.001385  Thickness (m): 0.0095  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 4  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Material number: 5  Type: LayeredDielectric  Thickness (m): 0
+2024.07.02 11:35:25.490   Layer 0: 
+2024.07.02 11:35:25.490     Relative permittivity: 6.27  Conductivity (S/m): 0.01221  Thickness (m): 0.003  Roughness (m): 0
+
+2024.07.02 11:35:25.490 Building structure facet lists...
+
+2024.07.02 11:35:25.490 ============ SCENE ============
+
+2024.07.02 11:35:25.491 Scene information: 
+                          Number of original facets: 864
+                          Number of spheres: 32
+
+                          Maximum Scene Distance: 739.976
+                          Bounding box: 
+                            Minimum: (0, 0, 0)
+                            Maximum: (200, 307.803, 35)
+
+                          Number of superedges: 658
+
+2024.07.02 11:35:25.970 ============ MODEL ============
+2024.07.02 11:35:25.970 Generating Monte Carlo scenarios
+2024.07.02 11:35:25.970 
+
+2024.07.02 11:35:26.018 Starting X3D ray tracing for Tx set 4, point 1 (point 1 of 3 total)
+
+2024.07.02 11:35:26.018   Diffraction cone ray angle = 0.25
+2024.07.02 11:35:26.018   Using 1 GPU ray tracer (2 CPU threads)
+2024.07.02 11:35:26.060   Ray tracing ranges: 
+2024.07.02 11:35:26.060     Minimum phi: 0
+2024.07.02 11:35:26.060     Maximum phi: 360
+2024.07.02 11:35:26.060     Minimum theta: 0
+2024.07.02 11:35:26.060     Maximum theta: 180
+2024.07.02 11:35:26.060   Model parameters: 
+2024.07.02 11:35:26.060     Reflections:         6
+2024.07.02 11:35:26.060     Transmissions:       4
+2024.07.02 11:35:26.060     Diffractions:        1
+2024.07.02 11:35:26.060     Ray spacing (degrees): 0.25
+
+2024.07.02 11:35:26.061   Advanced model parameters:
+2024.07.02 11:35:26.061     Maximum reflections before first diffraction: 3
+2024.07.02 11:35:26.061     Maximum reflections between two diffractions: 0
+2024.07.02 11:35:26.061     Maximum reflections after last diffraction: 3
+2024.07.02 11:35:26.061   Detected 1 GPU devices.
+2024.07.02 11:35:26.066   Licensed 1 GPU devices.
+2024.07.02 11:35:26.066   Running on 1 GPU devices.
+2024.07.02 11:35:26.066     Device ID's: [ 0 ]
+2024.07.02 11:35:26.208   Optimized concurrent GPU rays: 65536
+2024.07.02 11:35:32.475   GPU ray tracing (24560/65536 active): 5% complete
+2024.07.02 11:35:33.753   GPU ray tracing (15961/65536 active): 10% complete
+2024.07.02 11:35:34.828   GPU ray tracing (4340/65536 active): 35% complete
+
+2024.07.02 11:35:36.260   Beginning next round of queued diffractions
+
+2024.07.02 11:36:16.461   GPU ray tracing (65536/65536 active): 15% complete
+2024.07.02 11:36:38.449   GPU ray tracing (63268/65536 active): 20% complete
+2024.07.02 11:36:40.712   GPU ray tracing (37968/65536 active): 30% complete
+2024.07.02 11:36:41.881   GPU ray tracing (30859/65536 active): 35% complete
+2024.07.02 11:36:42.886   GPU ray tracing (25484/65536 active): 40% complete
+2024.07.02 11:36:44.284   GPU ray tracing (17314/65536 active): 50% complete
+2024.07.02 11:36:45.306   GPU ray tracing (11793/65536 active): 60% complete
+2024.07.02 11:36:46.452   GPU ray tracing (6119/65536 active): 75% complete
+2024.07.02 11:36:47.503   GPU ray tracing (3361/65536 active): 85% complete
+2024.07.02 11:36:49.061   GPU ray tracing (1067/65536 active): 95% complete
+2024.07.02 11:36:53.062   Total Number of Rays shot: 209453056
+2024.07.02 11:36:53.062   Total Number of active rays shot: 124055365
+2024.07.02 11:36:53.062   Total Initial Rays shot: 663228
+2024.07.02 11:36:53.062   665524 unique paths found.
+2024.07.02 11:36:53.062   2158 partial paths from Tx to edges.
+
+2024.07.02 11:36:53.062   Calculating E-fields and generating output
+
+2024.07.02 11:36:53.312     ============ ATMOSPHERE ============
+2024.07.02 11:36:53.312     Frequency = 2.395e+09
+2024.07.02 11:36:53.312     Attenuation (db/km) = 0.00674861
+2024.07.02 11:36:54.326     Paths    PO/DS   Channels  Database   Output 
+2024.07.02 11:36:54.326      2.80% -  0.00% -   0.00% -   0.00% -  0.00% 
+2024.07.02 11:36:55.393      2.80% -  0.00% -   3.12% -   3.12% -  3.12% 
+2024.07.02 11:36:56.407      8.09% -  0.00% -   6.25% -   6.25% -  6.25% 
+2024.07.02 11:36:58.255     15.57% -  0.00% -  12.50% -  12.50% - 12.50% 
+2024.07.02 11:36:59.289     18.61% -  0.00% -  15.62% -  15.62% - 15.62% 
+2024.07.02 11:37:00.310     22.29% -  0.00% -  18.75% -  18.75% - 18.75% 
+2024.07.02 11:37:02.186     28.29% -  0.00% -  25.00% -  25.00% - 25.00% 
+2024.07.02 11:37:03.233     32.22% -  0.00% -  28.12% -  28.12% - 28.12% 
+2024.07.02 11:37:04.304     35.42% -  0.00% -  31.25% -  31.25% - 31.25% 
+2024.07.02 11:37:06.222     42.21% -  0.00% -  37.50% -  37.50% - 37.50% 
+2024.07.02 11:37:07.307     45.29% -  0.00% -  40.62% -  40.62% - 40.62% 
+2024.07.02 11:37:08.370     48.74% -  0.00% -  43.75% -  43.75% - 43.75% 
+2024.07.02 11:37:10.136     54.63% -  0.00% -  50.00% -  50.00% - 50.00% 
+2024.07.02 11:37:11.149     57.28% -  0.00% -  53.12% -  53.12% - 53.12% 
+2024.07.02 11:37:12.176     60.23% -  0.00% -  56.25% -  56.25% - 56.25% 
+2024.07.02 11:37:13.948     65.46% -  0.00% -  62.50% -  62.50% - 62.50% 
+2024.07.02 11:37:15.023     71.82% -  0.00% -  68.75% -  65.62% - 65.62% 
+2024.07.02 11:37:16.074     74.77% -  0.00% -  71.87% -  68.75% - 68.75% 
+2024.07.02 11:37:17.620     78.23% -  0.00% -  75.00% -  75.00% - 75.00% 
+2024.07.02 11:37:18.668     83.26% -  0.00% -  81.25% -  78.12% - 78.12% 
+2024.07.02 11:37:20.261     86.11% -  0.00% -  84.37% -  84.37% - 84.37% 
+2024.07.02 11:37:21.966     90.29% -  0.00% -  90.62% -  90.62% - 90.62% 
+2024.07.02 11:37:23.546     98.16% -  0.00% -  96.87% -  96.87% - 96.87% 
+2024.07.02 11:37:23.638    100.00% -  0.00% - 100.00% - 100.00% -100.00% 
+2024.07.02 11:37:24.037     Original interaction chains:        665524
+2024.07.02 11:37:24.037     Interaction chains eliminated:      598210
+2024.07.02 11:37:24.037     Physical paths generated:            67314
+2024.07.02 11:37:24.037     High power paths retained:            8000
+2024.07.02 11:37:24.037     Low power paths eliminated:          59314
+
+
+2024.07.02 11:37:24.071 Starting X3D ray tracing for Tx set 5, point 1 (point 2 of 3 total)
+
+2024.07.02 11:37:24.702   Diffraction cone ray angle = 0.25
+2024.07.02 11:37:24.702   Using 1 GPU ray tracer (2 CPU threads)
+2024.07.02 11:37:24.712   Ray tracing ranges: 
+2024.07.02 11:37:24.712     Minimum phi: 0
+2024.07.02 11:37:24.712     Maximum phi: 360
+2024.07.02 11:37:24.712     Minimum theta: 0
+2024.07.02 11:37:24.712     Maximum theta: 180
+2024.07.02 11:37:24.712   Model parameters: 
+2024.07.02 11:37:24.712     Reflections:         6
+2024.07.02 11:37:24.712     Transmissions:       4
+2024.07.02 11:37:24.712     Diffractions:        1
+2024.07.02 11:37:24.712     Ray spacing (degrees): 0.25
+
+2024.07.02 11:37:24.712   Advanced model parameters:
+2024.07.02 11:37:24.712     Maximum reflections before first diffraction: 3
+2024.07.02 11:37:24.712     Maximum reflections between two diffractions: 0
+2024.07.02 11:37:24.712     Maximum reflections after last diffraction: 3
+2024.07.02 11:37:24.712   Detected 1 GPU devices.
+2024.07.02 11:37:24.716   Licensed 1 GPU devices.
+2024.07.02 11:37:24.716   Running on 1 GPU devices.
+2024.07.02 11:37:24.716     Device ID's: [ 0 ]
+2024.07.02 11:37:24.890   Optimized concurrent GPU rays: 65536
+2024.07.02 11:37:30.146   GPU ray tracing (9067/65536 active): 15% complete
+
+2024.07.02 11:37:31.793   Beginning next round of queued diffractions
+
+2024.07.02 11:38:09.534   GPU ray tracing (60864/65536 active): 15% complete
+2024.07.02 11:38:11.013   GPU ray tracing (44464/65536 active): 20% complete
+2024.07.02 11:38:12.021   GPU ray tracing (26537/65536 active): 30% complete
+2024.07.02 11:38:13.023   GPU ray tracing (17654/65536 active): 40% complete
+2024.07.02 11:38:14.225   GPU ray tracing (12377/65536 active): 50% complete
+2024.07.02 11:38:16.003   GPU ray tracing (8824/65536 active): 60% complete
+2024.07.02 11:38:17.082   GPU ray tracing (7467/65536 active): 65% complete
+2024.07.02 11:38:18.593   GPU ray tracing (4937/65536 active): 75% complete
+2024.07.02 11:38:19.601   GPU ray tracing (2713/65536 active): 85% complete
+2024.07.02 11:38:20.707   GPU ray tracing (856/65536 active): 95% complete
+2024.07.02 11:38:23.413   Total Number of Rays shot: 165347328
+2024.07.02 11:38:23.413   Total Number of active rays shot: 83096795
+2024.07.02 11:38:23.413   Total Initial Rays shot: 663228
+2024.07.02 11:38:23.413   305714 unique paths found.
+2024.07.02 11:38:23.413   1427 partial paths from Tx to edges.
+
+2024.07.02 11:38:23.413   Calculating E-fields and generating output
+
+2024.07.02 11:38:23.526     ============ ATMOSPHERE ============
+2024.07.02 11:38:23.526     Frequency = 2.395e+09
+2024.07.02 11:38:23.526     Attenuation (db/km) = 0.00674861
+2024.07.02 11:38:24.613     Paths    PO/DS   Channels  Database   Output 
+2024.07.02 11:38:24.613      7.28% -  0.00% -   6.25% -   6.25% -  6.25% 
+2024.07.02 11:38:25.644     17.51% -  0.00% -  15.62% -  15.62% - 15.62% 
+2024.07.02 11:38:26.728     27.07% -  0.00% -  25.00% -  25.00% - 25.00% 
+2024.07.02 11:38:27.986     37.36% -  0.00% -  34.37% -  34.37% - 34.37% 
+2024.07.02 11:38:29.172     46.97% -  0.00% -  43.75% -  43.75% - 43.75% 
+2024.07.02 11:38:30.321     55.17% -  0.00% -  53.12% -  53.12% - 53.12% 
+2024.07.02 11:38:31.467     64.36% -  0.00% -  62.50% -  62.50% - 62.50% 
+2024.07.02 11:38:32.696     73.35% -  0.00% -  71.87% -  71.87% - 71.87% 
+2024.07.02 11:38:33.789     82.64% -  0.00% -  81.25% -  81.25% - 81.25% 
+2024.07.02 11:38:34.840     89.73% -  0.00% -  90.62% -  90.62% - 90.62% 
+2024.07.02 11:38:35.664    100.00% -  0.00% - 100.00% - 100.00% -100.00% 
+2024.07.02 11:38:36.539     Original interaction chains:        305714
+2024.07.02 11:38:36.539     Interaction chains eliminated:      278909
+2024.07.02 11:38:36.539     Physical paths generated:            26805
+2024.07.02 11:38:36.539     High power paths retained:            8000
+2024.07.02 11:38:36.539     Low power paths eliminated:          18805
+
+
+2024.07.02 11:38:36.574 Starting X3D ray tracing for Tx set 6, point 1 (point 3 of 3 total)
+
+2024.07.02 11:38:36.880   Diffraction cone ray angle = 0.25
+2024.07.02 11:38:36.880   Using 1 GPU ray tracer (2 CPU threads)
+2024.07.02 11:38:36.889   Ray tracing ranges: 
+2024.07.02 11:38:36.889     Minimum phi: 0
+2024.07.02 11:38:36.889     Maximum phi: 360
+2024.07.02 11:38:36.889     Minimum theta: 0
+2024.07.02 11:38:36.889     Maximum theta: 180
+2024.07.02 11:38:36.889   Model parameters: 
+2024.07.02 11:38:36.889     Reflections:         6
+2024.07.02 11:38:36.889     Transmissions:       4
+2024.07.02 11:38:36.889     Diffractions:        1
+2024.07.02 11:38:36.889     Ray spacing (degrees): 0.25
+
+2024.07.02 11:38:36.890   Advanced model parameters:
+2024.07.02 11:38:36.890     Maximum reflections before first diffraction: 3
+2024.07.02 11:38:36.890     Maximum reflections between two diffractions: 0
+2024.07.02 11:38:36.890     Maximum reflections after last diffraction: 3
+2024.07.02 11:38:36.890   Detected 1 GPU devices.
+2024.07.02 11:38:36.894   Licensed 1 GPU devices.
+2024.07.02 11:38:36.894   Running on 1 GPU devices.
+2024.07.02 11:38:36.894     Device ID's: [ 0 ]
+2024.07.02 11:38:37.048   Optimized concurrent GPU rays: 65536
+2024.07.02 11:38:42.441   GPU ray tracing (7355/65536 active): 20% complete
+2024.07.02 11:38:43.456   GPU ray tracing (308/65536 active): 90% complete
+
+2024.07.02 11:38:44.544   Beginning next round of queued diffractions
+
+2024.07.02 11:39:18.564   GPU ray tracing (61490/65536 active): 15% complete
+2024.07.02 11:39:20.281   GPU ray tracing (43343/65536 active): 20% complete
+2024.07.02 11:39:21.334   GPU ray tracing (33678/65536 active): 25% complete
+2024.07.02 11:39:22.600   GPU ray tracing (21352/65536 active): 35% complete
+2024.07.02 11:39:23.673   GPU ray tracing (14728/65536 active): 45% complete
+2024.07.02 11:39:24.675   GPU ray tracing (10228/65536 active): 55% complete
+2024.07.02 11:39:26.115   GPU ray tracing (5707/65536 active): 70% complete
+2024.07.02 11:39:27.129   GPU ray tracing (3484/65536 active): 80% complete
+2024.07.02 11:39:28.426   GPU ray tracing (1671/65536 active): 90% complete
+2024.07.02 11:39:32.856   Total Number of Rays shot: 166264832
+2024.07.02 11:39:32.856   Total Number of active rays shot: 75863505
+2024.07.02 11:39:32.856   Total Initial Rays shot: 663228
+2024.07.02 11:39:32.856   434714 unique paths found.
+2024.07.02 11:39:32.856   1559 partial paths from Tx to edges.
+
+2024.07.02 11:39:32.856   Calculating E-fields and generating output
+
+2024.07.02 11:39:33.016     ============ ATMOSPHERE ============
+2024.07.02 11:39:33.016     Frequency = 2.395e+09
+2024.07.02 11:39:33.016     Attenuation (db/km) = 0.00674861
+2024.07.02 11:39:34.122     Paths    PO/DS   Channels  Database   Output 
+2024.07.02 11:39:34.122      2.34% -  0.00% -   3.12% -   3.12% -  3.12% 
+2024.07.02 11:39:35.199     14.35% -  0.00% -  12.50% -   9.37% -  9.37% 
+2024.07.02 11:39:36.218     16.68% -  0.00% -  15.62% -  15.62% - 15.62% 
+2024.07.02 11:39:37.257     23.12% -  0.00% -  21.87% -  21.87% - 21.87% 
+2024.07.02 11:39:38.472     28.78% -  0.00% -  28.12% -  28.12% - 28.12% 
+2024.07.02 11:39:39.604     35.06% -  0.00% -  34.37% -  34.37% - 34.37% 
+2024.07.02 11:39:40.871     41.64% -  0.00% -  40.62% -  40.62% - 40.62% 
+2024.07.02 11:39:42.038     47.72% -  0.00% -  46.87% -  46.87% - 46.87% 
+2024.07.02 11:39:43.241     52.99% -  0.00% -  53.12% -  53.12% - 53.12% 
+2024.07.02 11:39:44.431     59.08% -  0.00% -  59.37% -  59.37% - 59.37% 
+2024.07.02 11:39:45.666     65.49% -  0.00% -  65.62% -  65.62% - 65.62% 
+2024.07.02 11:39:46.843     71.36% -  0.00% -  71.87% -  71.87% - 71.87% 
+2024.07.02 11:39:48.008     78.02% -  0.00% -  78.12% -  78.12% - 78.12% 
+2024.07.02 11:39:49.202     83.82% -  0.00% -  84.37% -  84.37% - 84.37% 
+2024.07.02 11:39:50.417     88.58% -  0.00% -  90.62% -  90.62% - 90.62% 
+2024.07.02 11:39:51.608     97.63% -  0.00% -  96.87% -  96.87% - 96.87% 
+2024.07.02 11:39:51.691    100.00% -  0.00% - 100.00% - 100.00% -100.00% 
+2024.07.02 11:39:53.051     Original interaction chains:        434714
+2024.07.02 11:39:53.051     Interaction chains eliminated:      392370
+2024.07.02 11:39:53.051     Physical paths generated:            42344
+2024.07.02 11:39:53.051     High power paths retained:            8000
+2024.07.02 11:39:53.051     Low power paths eliminated:          34344
+
+2024.07.02 11:39:53.117 Writing Wireless InSite binary results to disk
+2024.07.02 11:39:57.335 Finished writing Wireless InSite binary results to disk
+
+
+2024.07.02 11:39:57.736 ?? 7? 2 11:39:57 2024
+
+2024.07.02 11:39:57.736 Writing P2M output files
+2024.07.02 11:39:57.756 Finished writing P2M output files
+
+2024.07.02 11:39:57.756 Geometry Processing Time: : 00:00:00.005
+2024.07.02 11:39:57.756 TxRx Set Generation Time: : 00:00:00.039
+2024.07.02 11:39:57.756 Path Discovery Time: 00:03:21.667
+2024.07.02 11:39:57.756 Path Generation Time: 00:01:04.293
+2024.07.02 11:39:57.756 Writing Binary Output (X3D) Time: 00:00:04.218
+2024.07.02 11:39:57.756 Writing P2M Output Time: 00:00:00.020
+
+2024.07.02 11:39:57.756 Total Runtime: : 00:04:32.381

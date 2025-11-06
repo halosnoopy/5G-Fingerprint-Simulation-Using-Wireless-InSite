@@ -1,0 +1,570 @@
+Format type:keyword version: 1.1.0
+begin_<project> Untitled Project
+project_id 11462
+begin_<globals> 
+longitude 0
+latitude 0
+end_<globals>
+FirstAvailableFeatureNumber 17
+FirstAvailableUnknownLayoutNumber 0
+FirstAvailableStudyAreaNumber 6
+FirstAvailableAntennaNumber 3
+FirstAvailableWaveformNumber 1
+begin_<caches> 
+begin_<cache> 
+type X3DGeometry
+feature -1
+filename ./sim1.X3DGeometry.cache
+valid false
+end_<cache>
+begin_<cache> 
+type X3DGeometryAllEdges
+feature -1
+filename ./project3.X3DGeometryAllEdges.cache
+valid true
+end_<cache>
+end_<caches>
+begin_<studyarea> studyarea
+StudyAreaNumber 3
+active
+begin_<partitioning> 
+partitioning_type disabled
+queuing_type local
+num_partitions 2
+num_ranks 2
+extra_queue_options 
+end_<partitioning>
+begin_<apg_acceleration> 
+enabled yes
+workflow_mode full
+binary_output_mode per_path_utm
+binary_rate 0 active
+database_mode write
+path_depth 25
+adjacency_distance 10
+end_<apg_acceleration>
+begin_<diffuse_scattering> 
+enabled no
+diffuse_reflections 2
+diffuse_diffractions 1
+diffuse_transmissions 0
+final_interaction_only yes
+spatial_resolution 2
+end_<diffuse_scattering>
+autoboundary 1
+begin_<model> 
+x3d
+num_threads 2
+initial_ray_mode uniform_sweep
+foliage_model 2
+foliage_attenuation 1
+mobility_platform_time_interval 1
+terrain_diffractions Yes
+plane_wave_phase_reference automatic
+100 153.901 17.5
+max_reflections 6
+max_transmissions 4
+max_wedge_diffractions 1
+begin_<OutputRequests> 
+CEF no
+ComplexImpulseResponse yes
+DelaySpread yes
+DirectionOfArrival yes
+DirectionOfDeparture yes
+ElectroMagneticFields no
+FSPathloss yes
+FSPower yes
+MeanDirectionOfArrival yes
+MeanDirectionOfDeparture yes
+MeanTimeOfArrival yes
+Pathloss yes
+Paths yes
+Power yes
+TimeOfArrival yes
+XPathloss yes
+end_<OutputRequests>
+end_<model>
+begin_<boundary> 
+begin_<reference> 
+cartesian
+longitude 0
+latitude 0
+visible no
+terrain
+end_<reference>
+zmin -0.25
+zmax 42.75
+nVertices 4
+-0.25 -0.25 0
+200.25 -0.25 0
+200.25 308.052642822266 0
+-0.25 308.052642822266 0
+end_<boundary>
+begin_<MonteCarlo> 
+monte_carlo_updated yes
+monte_carlo_active yes
+monte_carlo_iterations 1
+monte_carlo_seed 436889312
+end_<MonteCarlo>
+begin_<MPE> 
+mpe_is_active inactive
+mpestandard controlled
+mpe_averaging_time 300
+mpe_averaging_time_short 0.1
+mpe_user_efield_peak 100000
+mpe_user_efield_rms 61.4
+mpe_user_hfield_rms 0.163
+mpe_user_power_short 10
+mpe_user_power 2
+end_<MPE>
+end_<studyarea>
+begin_<feature> 
+feature 11
+terrain
+active
+filename ./newTerrain(3).ter
+end_<feature>
+begin_<feature> 
+feature 12
+city
+active
+filename ./newCity(2).city
+end_<feature>
+begin_<feature> 
+feature 13
+floorplan
+active
+filename ./newFlp(6).flp
+end_<feature>
+begin_<feature> 
+feature 15
+floorplan
+active
+filename ./2nd floor.flp
+end_<feature>
+begin_<feature> 
+feature 16
+floorplan
+active
+filename ./3rd floor.flp
+end_<feature>
+begin_<txrx_sets> 
+filename ./sim1.txrx
+FirstAvailableTxRxNumber 16
+end_<txrx_sets>
+FirstAvailableCommSystemNumber 14
+begin_<CommSystem> cs1
+CommSystemNumber 4
+active
+BaseStations 4 
+Interferers 5 6 
+Receivers 13 14 15 
+AnalysisOption Throughput
+NoisePowerDensity -174
+UniformInterference -250
+BestTxCriterion 0
+BerBandwidth 1
+ModulationScheme DPSK
+AlphabetSize 2
+SpreadSpectrumProcessingGain 1
+AnalysisType AWGN
+BitRate 1e+06
+OutageBerThreshold 0.001
+WirelessAccessMethod LTE
+ThroughputBandwidth 20
+NumberOfDataStreams 1
+UserDefinedFile internal
+MimoMethod Beamforming / Diversity
+IncludeMimoMutualCoupling no
+TxBeamformingOption Max Ratio Trans (MRT)
+RxDiversity Max Ratio Combining
+TxPrecodingFilename ./
+RxPrecodingFilename ./
+DoBaseStationsInterfere 1
+PowerAllocationMethod UniformPowerAllocationMethod
+UseDefaultMaxStreams yes
+DefaultMaxStreams 8
+UserSpecifiedMaxStreams 8
+UseEqualMcrAcrossStreams yes
+SigParSignalBandwidth 20
+end_<CommSystem>
+begin_<CommSystem> cs2
+CommSystemNumber 5
+active
+BaseStations 5 
+Interferers 4 6 
+Receivers 13 14 15 
+AnalysisOption Throughput
+NoisePowerDensity -174
+UniformInterference -250
+BestTxCriterion 0
+BerBandwidth 1
+ModulationScheme DPSK
+AlphabetSize 2
+SpreadSpectrumProcessingGain 1
+AnalysisType AWGN
+BitRate 1e+06
+OutageBerThreshold 0.001
+WirelessAccessMethod LTE
+ThroughputBandwidth 20
+NumberOfDataStreams 1
+UserDefinedFile internal
+MimoMethod Beamforming / Diversity
+IncludeMimoMutualCoupling no
+TxBeamformingOption Max Ratio Trans (MRT)
+RxDiversity Max Ratio Combining
+TxPrecodingFilename ./
+RxPrecodingFilename ./
+DoBaseStationsInterfere 1
+PowerAllocationMethod UniformPowerAllocationMethod
+UseDefaultMaxStreams yes
+DefaultMaxStreams 8
+UserSpecifiedMaxStreams 8
+UseEqualMcrAcrossStreams yes
+SigParSignalBandwidth 1
+end_<CommSystem>
+begin_<CommSystem> cs3
+CommSystemNumber 6
+active
+BaseStations 6 
+Interferers 4 5 
+Receivers 13 14 15 
+AnalysisOption Throughput
+NoisePowerDensity -174
+UniformInterference -250
+BestTxCriterion 0
+BerBandwidth 1
+ModulationScheme DPSK
+AlphabetSize 2
+SpreadSpectrumProcessingGain 1
+AnalysisType AWGN
+BitRate 1e+06
+OutageBerThreshold 0.001
+WirelessAccessMethod LTE
+ThroughputBandwidth 20
+NumberOfDataStreams 1
+UserDefinedFile internal
+MimoMethod Beamforming / Diversity
+IncludeMimoMutualCoupling no
+TxBeamformingOption Max Ratio Trans (MRT)
+RxDiversity Max Ratio Combining
+TxPrecodingFilename ./
+RxPrecodingFilename ./
+DoBaseStationsInterfere 1
+PowerAllocationMethod UniformPowerAllocationMethod
+UseDefaultMaxStreams yes
+DefaultMaxStreams 8
+UserSpecifiedMaxStreams 8
+UseEqualMcrAcrossStreams yes
+SigParSignalBandwidth 1
+end_<CommSystem>
+begin_<antenna> Half-wave dipole
+antenna 0
+type HalfWaveDipole
+waveform 0
+polarization vertical
+power_threshold -150
+cable_loss 0
+VSWR 1
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+end_<antenna>
+begin_<antenna> 2.4GHz MIMO
+description 2.4GHz MIMO
+antenna 1
+type MIMO
+waveform 0
+sparamFilename 
+selectedElement 2
+renderingSize 0.068
+begin_<antenna> Half-wave dipole
+antenna -1
+type HalfWaveDipole
+waveform 0
+polarization vertical
+power_threshold -250
+cable_loss 0
+VSWR 1
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+end_<antenna>
+begin_<MimoElement> 
+position -0 -0.224844 -0.224844
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.224844 -0.0749481
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.224844 0.0749481
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.224844 0.224844
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0749481 -0.224844
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0749481 -0.0749481
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0749481 0.0749481
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0749481 0.224844
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0749481 -0.224844
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0749481 -0.0749481
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0749481 0.0749481
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0749481 0.224844
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.224844 -0.224844
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.224844 -0.0749481
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.224844 0.0749481
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.224844 0.224844
+antenna 0
+rotation 0 0 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.224844 -0.224844
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.224844 -0.0749481
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.224844 0.0749481
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.224844 0.224844
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0749481 -0.224844
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0749481 -0.0749481
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0749481 0.0749481
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 -0.0749481 0.224844
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0749481 -0.224844
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0749481 -0.0749481
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0749481 0.0749481
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.0749481 0.224844
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.224844 -0.224844
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.224844 -0.0749481
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.224844 0.0749481
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+begin_<MimoElement> 
+position -0 0.224844 0.224844
+antenna 0
+rotation 0 90 0
+end_<MimoElement>
+end_<antenna>
+begin_<antenna> Horn
+antenna 2
+type Horn
+waveform 0
+polarization vertical
+power_threshold -250
+cable_loss 0
+VSWR 1
+component TotalGain
+gain_range 40
+show_arrow no
+is_sphere no
+HornApertureWidth 1.6489
+HornApertureHeight 0.8244
+FeedApertureWidth 0.1499
+FeedApertureHeight 0.0749
+Length 1.499
+end_<antenna>
+begin_<Waveform> Sinusoid
+description                                          2.4GHz MIMO
+Sinusoid
+waveform 0
+begin_<FrequencySweep> 
+Active
+SweepType StartEndCount
+StartValue 2395.000
+Increment 10000.000
+Count 10
+EndValue 2405.000
+end_<FrequencySweep>
+CarrierFrequency 2395000000.000
+phase 0.000
+bandwidth 20000000.000
+end_<Waveform>
+FirstAvailableFilterNumber 0
+begin_<requests> 
+cartesian
+sealevel
+local
+CalculationMode New
+MaxRenderedPaths 25
+FieldAnimationIncrement 10
+FieldAnimationTimeAveraged yes
+CEF no
+ComplexImpulseResponse yes
+DelaySpread yes
+FieldAnimation no
+DirectionOfArrival yes
+DirectionOfDeparture yes
+ElectricFieldVsFrequency no
+ElectricFieldVsTime no
+EMFields no
+FSPathloss yes
+FSPower yes
+InputData no
+MeanDirectionOfArrival yes
+MeanDirectionOfDeparture yes
+MeanTimeOfArrival yes
+Pathloss yes
+Paths yes
+Power yes
+PowerDelayProfile no
+TimeOfArrival yes
+XPathloss yes
+TerrainProfile no
+end_<requests>
+begin_<Scales> 
+begin_<MpeThreshhold> 
+AutoScaling 0
+DrawValues 0
+AutoUpdating 0
+Discrete 1
+UseGlobalOpacity 1
+ManualValuesSet 1
+ClampedHigh 1
+ClampedLow 1
+Alpha 1.000e+00
+ManualMin 0.000e+00
+ManualMax 2.000e+02
+TextColor 1.000 1.000 1.000
+Colors 4
+0.300 0.000 0.500
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.000 0.000
+PartitionValues 
+3
+0.001 50.000 100.000 
+end_<MpeThreshhold>
+begin_<Special1> 
+AutoScaling 1
+DrawValues 0
+AutoUpdating 1
+Discrete 0
+UseGlobalOpacity 0
+ManualValuesSet 0
+ClampedHigh 1
+ClampedLow 1
+Alpha 8.000e-01
+ManualMin 0.000e+00
+ManualMax 0.000e+00
+TextColor 1.000 1.000 1.000
+Colors 6
+0.300 0.000 0.500
+0.000 0.000 1.000
+0.000 1.000 0.000
+1.000 1.000 0.000
+1.000 0.500 0.000
+1.000 0.000 0.000
+PartitionValues 
+5
+1.000e-28 1.000e-28 1.000e-28 1.000e-28 1.000e-28 
+end_<Special1>
+end_<Scales>
+end_<project>

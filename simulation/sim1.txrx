@@ -1,0 +1,360 @@
+begin_<points> Antenna 1
+project_id 4
+active
+vertical_line yes
+pattern_shown yes
+cube_size 5.00000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AntennaPatternScale 5.00000
+ShowDescription yes
+CVsVisible yes
+CVsLocation -1
+PatternOption TransmitterAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+34.117132549963650 148.148089635966357 31.000000000000000
+end_<location>
+pattern_show_arrow yes
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 1
+waveform 0
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 30.00000
+totalArrayPower false
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Normal 30.00000 1.00000 28.00000 32.00000 active nosampling 0
+end_<points>
+begin_<points> Antenna 2
+project_id 5
+active
+vertical_line yes
+pattern_shown yes
+cube_size 5.00000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AntennaPatternScale 5.00000
+ShowDescription yes
+CVsVisible yes
+CVsLocation -1
+PatternOption TransmitterAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+166.567016128355732 251.782369782130075 40.000000000000000
+end_<location>
+pattern_show_arrow yes
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 1
+waveform 0
+alignmentMode spherical -90.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -90.00000
+end_<pattern>
+power 30.00000
+totalArrayPower false
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform 0
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Normal 30.00000 1.00000 28.00000 32.00000 active nosampling 0
+end_<points>
+begin_<points> Antenna 3
+project_id 6
+active
+vertical_line yes
+pattern_shown yes
+cube_size 0.25000
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AntennaPatternScale 5.00000
+ShowDescription yes
+CVsVisible yes
+CVsLocation -1
+PatternOption TransmitterAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+nVertices 1
+145.981691342012539 42.919636184708310 30.000000000000000
+end_<location>
+pattern_show_arrow yes
+pattern_show_as_sphere no
+generate_p2p yes
+use_apg_acceleration no
+is_transmitter yes
+is_receiver no
+begin_<transmitter> 
+begin_<pattern> 
+antenna 1
+waveform 0
+alignmentMode spherical 90.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc 90.00000
+end_<pattern>
+power 30.00000
+totalArrayPower false
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Normal 30.00000 1.00000 28.00000 32.00000 active nosampling 0
+end_<points>
+begin_<polygon> 1st  floor with 3
+project_id 13
+inactive
+vertical_line no
+pattern_shown no
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+spacing 3.00000
+offset 0.00000
+begin_<face> 
+nVertices 5
+85.40667 196.01577 1.50000
+128.48355 196.05444 1.50000
+128.73787 112.00252 1.50000
+85.37675 112.00252 1.50000
+85.37675 196.05444 1.50000
+end_<face>
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform 0
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<polygon>
+begin_<polygon> 2nd  floor with 3
+project_id 14
+inactive
+vertical_line no
+pattern_shown no
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+spacing 3.00000
+offset 0.00000
+begin_<face> 
+nVertices 5
+85.40667 196.01577 6.50000
+128.48355 196.05444 6.50000
+128.73787 112.00252 6.50000
+85.37675 112.00252 6.50000
+85.37675 196.05444 6.50000
+end_<face>
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform 0
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<polygon>
+begin_<polygon> 3rd  floor with 3
+project_id 15
+active
+vertical_line no
+pattern_shown no
+CVxLength 10.00000
+CVyLength 10.00000
+CVzLength 10.00000
+AutoPatternScale
+ShowDescription yes
+CVsVisible no
+CVsLocation -1
+PatternOption ReceiverAntennaOption
+CVsThickness 3
+begin_<location> 
+begin_<reference> 
+cartesian
+longitude 0.000000000000000
+latitude 0.000000000000000
+visible no
+terrain
+end_<reference>
+spacing 3.00000
+offset 0.00000
+begin_<face> 
+nVertices 5
+85.40667 196.01577 11.50000
+128.48355 196.05444 11.50000
+128.73787 112.00252 11.50000
+85.37675 112.00252 11.50000
+85.37675 196.05444 11.50000
+end_<face>
+end_<location>
+pattern_show_arrow no
+pattern_show_as_sphere no
+generate_p2p no
+use_apg_acceleration no
+is_transmitter no
+is_receiver yes
+begin_<transmitter> 
+begin_<pattern> 
+antenna 0
+waveform -1
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+power 0.00000
+end_<transmitter>
+begin_<receiver> 
+begin_<pattern> 
+antenna 0
+waveform 0
+alignmentMode spherical 0.00000 90.00000 0.00000
+rotation_x_calc 0.00000
+rotation_y_calc -0.00000
+rotation_z_calc -0.00000
+end_<pattern>
+NoiseFigure 3.00000
+end_<receiver>
+powerDistribution Uniform 10.00000 10.00000 inactive nosampling 10
+end_<polygon>
