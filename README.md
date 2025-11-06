@@ -56,3 +56,43 @@ Two primary datasets are provided:
 | `PowerDelayProfile` | Aggregated power-delay features |
 
 ---
+## Simulation and Data Description
+
+### Simulation Files (`simulation/`)
+The `simulation/` folder contains all necessary files and settings to run the **Wireless InSite** simulation.  
+It is a **ready-to-run setup** for generating 5G indoor fingerprints.
+
+- The configuration includes the full study area, transmitter/receiver placement, antenna parameters, and propagation settings.
+- To execute the simulation, you must have **Wireless InSite installed** and a **valid software license**.
+- Once opened in Wireless InSite, simply run the project to regenerate the raw signal data.
+
+> Note: Wireless InSite is a licensed software by Remcom. A valid license is required to modify or re-run the simulation.
+
+---
+
+### Data Files (`data/`)
+The `data/` folder contains datasets generated from the Wireless InSite simulation.  
+It is organized as follows:
+├── sim1/ # Raw data directly exported from the simulation
+├── sim2/, sim3/, ... # Additional runs (for building time-series fingerprints)
+├── AoD/ # Files extracted by getaod.m
+├── features/ # Feature data extracted by getfeatures.m
+├── fulldata.m # Assembles the full dataset for machine learning
+
+#### Data Generation Notes:
+- The **`sim1`** folder includes one set of simulated receiver outputs.  
+- To build a **time-series dataset**, run multiple simulations (e.g., `sim1`, `sim2`, `sim3`) under slightly different parameters or random seeds, then store them in the `data/` directory.  
+- Each file should be named in order (e.g., `sim_1`, `sim_2`, `sim_3`) for easy aggregation.
+
+---
+
+### MATLAB Scripts
+
+| File | Description |
+|------|--------------|
+| `getaod.m` | Extracts the **Angle of Departure (AoD)** data from raw simulation results. |
+| `getfeatures.m` | Extracts the **signal features** (e.g., RSRP, RSSI, path delay) from simulation files. |
+| `aodprocess.m` | Utility function used by `getaod.m` for processing AoD-related parameters. |
+| `rsprocess.m` | Utility function used by `getfeatures.m` for RSS/RSRP data transformation. |
+| `fulldata.m` | Combines all extracted results (features and AoD) into a unified dataset ready for machine learning training. |
+
